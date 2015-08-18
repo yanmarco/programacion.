@@ -1,0 +1,24 @@
+// autor: yan marco fuentes
+// fecha: 18/08/2015
+#include "stdafx.h"
+#include<iostream>
+#include "conio.h"
+using namespace std;
+void main () 
+{
+	int a,b,c,m,p,ñ;
+	cout << "ingrese un valor: " << endl;
+	cin >> a;
+	cout << "ingrese otro valor " << endl;
+	cin >> b;
+	c = a*b;
+	cout << "el resultado de la multiplicacion es " << c<< endl;
+	m = a+b; 
+	cout << "el resultado de la suma es " << m<< endl;
+	p = a-b;
+	cout << "el resultado de la resta es " << p<< endl;
+	ñ = a/b; 
+	cout << "el resultado de la division es " << ñ<< endl;
+	getch(); 
+}
+
