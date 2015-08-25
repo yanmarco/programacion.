@@ -1,0 +1,18 @@
+//nombre: yan marco fuentes 
+
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h" 
+using namespace std; 
+
+void main() {
+	float a;
+	float b;
+	cout << "introduzca el lado del cuadrado" << endl;
+	cin >> b;
+	a = (b*b);
+	cout << "el area del cuadrado" << a << endl;
+	getch ();
+}
+
