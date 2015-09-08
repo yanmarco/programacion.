@@ -1,0 +1,20 @@
+// autor: yan marco fuentes 
+// fecha:08/09/2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h" 
+using namespace std;
+
+
+void main (){ 
+	int A;
+	cout << "escriba su edad" << endl;
+	cin>>A; 
+	if(A>=18)
+		cout<<"el ciudadano puede votar" <<endl;
+	else 
+		cout<<"el ciudadano no puede votar" <<endl; 
+		getch(); 
+}
+	
