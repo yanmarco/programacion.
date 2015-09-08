@@ -1,0 +1,20 @@
+// autor:yan marco fuentes 
+// fecha:08/09/2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h" 
+using namespace std; 
+
+void main (){
+	int i,c,n,t;
+	cout << "Ingrese el capital"<<endl;
+	cin>>c;
+	cout <<"Ingrese el numero de años"<<endl;
+	cin>>n;
+	cout <<"ingrese la tasa de interes"<<endl;
+	cin>>t;
+	i=c*n*t;
+	cout<<"El interes simple es de: "<<i<<endl;
+	getch();
+}
